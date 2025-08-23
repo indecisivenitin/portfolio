@@ -90,7 +90,7 @@ const About = () => {
 
                 <div className="right -ml-60 w-[50%] flex flex-col gap-10 mb-26">
                     <h1 className='font-neueMachinia text-5xl text-[#27dfb3]'>About Me</h1>
-                    <h2 className='text-2xl'>Hey, I’m Nitin  — a frontend developer passionate about turning ideas into interactive web experiences. Over the past 6+ months, I’ve dedicated myself to learning by building real projects through Frontend Mentor, where I’ve solved challenges and sharpened my problem-solving mindset.</h2>
+                    <h2 className='text-2xl'>Hey, I’m Nitinn  — a frontend developer passionate about turning ideas into interactive web experiences. Over the past 6+ months, I’ve dedicated myself to learning by building real projects through Frontend Mentor, where I’ve solved challenges and sharpened my problem-solving mindset.</h2>
 
                     <h2 className='text-2xl'>With 3+ completed projects, I focus on writing clean code, creating responsive layouts, and bringing designs to life. My next step is to keep pushing my limits, take on bigger projects, and grow into a well-rounded developer.</h2>
                 </div>
