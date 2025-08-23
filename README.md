@@ -29,13 +29,21 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 ## Folder Structure
 
 ├─ public/ # Static assets like images
+
 │ └─ skills/
+
 ├─ src/
+
 │ ├─ components/ # Reusable components
+
 │ ├─ pages/ # Website pages
+
 │ └─ App.jsx # Main App component
+
 ├─ package.json
+
 ├─ vite.config.js
+
 └─ README.md
 
 
