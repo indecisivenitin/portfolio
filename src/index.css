@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Neue-machinia;
+    src: url('/NeueMachina-Regular.otf');
+}
+
+@font-face {
+    font-family: Helvetica-display;
+    src: url('/HelveticaNowDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: Fontspring;
+    src: url('/Fontspring.ttf');
+}
+
+
+@theme{
+    --font-neueMachinia: "Neue-machinia"
+}
+
+@theme{
+    --font-helveticaDisplay: "Helvetica-display"
+}
+
+@theme{
+    --font-fontspring: "Fontspring"
+}
+
