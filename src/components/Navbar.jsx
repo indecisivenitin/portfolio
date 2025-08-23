@@ -59,7 +59,7 @@ const Navbar = () => {
     <motion.div>
       <nav className='bg-transparent flex justify-between items-center px-16  text-[#E5E5E5] mt-10'>
         <div className="logo text-3xl font-helveticaDisplay">
-          <span className='flex text-[#27dfb3] gap-1 font-helveticaDisplay items-center'><img className='w-10 h-10' src="/logo.svg" alt="" />Nitin</span>
+          <span className='flex text-[#27dfb3] gap-1 font-helveticaDisplay items-center'><img className='w-10 h-10' src="/portfolio/logo.svg" alt="" />Nitin</span>
         </div>
         <div className="links flex justify-between font-neueMachinia gap-10 text-lg items-center">
           <h2 className='hover:font-bold hover:text-xl hover:text-amber-200'><a href="#">Home</a></h2>
