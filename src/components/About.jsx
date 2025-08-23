@@ -72,7 +72,7 @@ const About = () => {
             <div className='flex justify-around items-center'>
                 <div className="left w-[40%]">
                     <div className="image w-80 overflow-hidden h-auto rounded-2xl border-[#27dfb3] border-[2px] mb-8 hover:border-[4px]">
-                        <img className="w-full h-full object-cover object-center" src="/photohd.jpeg" alt="" />
+                        <img className="w-full h-full object-cover object-center" src="./photohd.jpeg" alt="" />
                     </div>
 
                     <div className="group  social-links flex justify-around items-center w-52 bg-gray-900 rounded-2xl ml-14 hover:scale-40 transition duration-50 backdrop-blur-md border-[#27dfb3] border-[1px] px-2 py-2">
