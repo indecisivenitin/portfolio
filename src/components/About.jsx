@@ -72,7 +72,7 @@ const About = () => {
             <div className='flex justify-around items-center'>
                 <div className="left w-[40%]">
                     <div className="image w-80 overflow-hidden h-auto rounded-2xl border-[#27dfb3] border-[2px] mb-8 hover:border-[4px]">
-                        <img className="w-full h-full object-cover object-center" src="/photohd.jpeg" alt="" />
+                        <img className="w-full h-full object-cover object-center" src="/portfolio/photohd.jpeg" alt="" />
                     </div>
 
                     <div className="group  social-links flex justify-around items-center w-52 bg-gray-900 rounded-2xl ml-14 hover:scale-40 transition duration-50 backdrop-blur-md border-[#27dfb3] border-[1px] px-2 py-2">
@@ -101,19 +101,19 @@ const About = () => {
                 <div className='w-full flex  justify-center skills-1'>
                     <div className='flex mt-20 w-[40%] justify-around items-center '>
                         <div className='group w-[80px] h-[80px] rounded-2xl  flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/html.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/portfolio/Skills/html.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white '>HTML</p>
                         </div>
                         <div className='group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/css.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/portfolio/Skills/css.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white '>CSS</p>
                         </div>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/javascript.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/portfolio/Skills/javascript.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white '>JavaScript</p>
                         </div>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/react.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/portfolio/Skills/react.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white '>React JS</p>
                         </div>
                     </div>
@@ -121,19 +121,19 @@ const About = () => {
                 <div className='w-full flex  justify-center skills-2'>
                     <div className='flex mt-10 w-[40%] justify-around items-center '>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/tailwind.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/portfolio/Skills/tailwind.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white '>Tailwindcss</p>
                         </div>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/mongdb.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/portfolio/Skills/mongdb.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white '>MongoDb</p>
                         </div>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/ejs.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/portfolio/Skills/ejs.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white ml-2'>Ejs</p>
                         </div>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/linux.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/portfolio/Skills/linux.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white '>Linux</p>
                         </div>
                     </div>
@@ -141,19 +141,19 @@ const About = () => {
                 <div className='w-full flex  justify-center skills-3'>
                     <div className='flex mt-10 w-[40%] justify-around items-center '>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/node.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/portfolio/Skills/node.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white '>Node</p>
                         </div>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/express.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/portfolio/Skills/express.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white '>Express</p>
                         </div>
                         <div className=' group w-[80x] h-[88px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[88px]' src="/Skills/gsap.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[88px]' src="/portfolio/Skills/gsap.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white ml-8'>GSAP</p>
                         </div>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/figma.svg" alt="" />
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/portfolio/Skills/figma.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white '>Figma</p>
                         </div>
                     </div>
