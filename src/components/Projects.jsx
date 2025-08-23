@@ -100,7 +100,7 @@ export default function Projects() {
                         onClick={sundownClick}
                         className="projects min-h-34 px-10 py-6 border-white/60 border-2 rounded-xl flex flex-col justify-end gap-4"
                         onMouseEnter={() => {
-                            setVideoSrc("/videos/sundown-studios.mp4");
+                            setVideoSrc("/portfolio/videos/sundown-studios.mp4");
                             setShowVideo(true);
                         }}
                         onMouseLeave={() => setShowVideo(false)}>
@@ -115,7 +115,7 @@ export default function Projects() {
                             user experience.
                         </p>
                         <div className="skillset flex gap-4 items-center w-52">
-                            <img className='w-10 h-10' src="/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/Skills/node.svg" alt="" /><img className='w-10 h-10' src="/Skills/javascript.svg" alt="" /><img className='w-10 h-10' src="/Skills/gsap.svg" alt="" />
+                            <img className='w-10 h-10' src="/portfolio/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/node.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/javascript.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/gsap.svg" alt="" />
                         </div>
                     </div>
 
@@ -124,7 +124,7 @@ export default function Projects() {
                         onClick={ochiClick}
                         className="projects min-h-34 px-10 py-6 border-white/60 border-2 rounded-xl flex flex-col justify-end gap-4"
                         onMouseEnter={() => {
-                            setVideoSrc("/videos/ochi-design.mp4");
+                            setVideoSrc("/portfolio/videos/ochi-design.mp4");
                             setShowVideo(true);
                         }}
                         onMouseLeave={() => setShowVideo(false)}>
@@ -139,7 +139,7 @@ export default function Projects() {
                             creating a visually compelling and engaging user experience.
                         </p>
                         <div className="skillset flex gap-4 items-center w-52">
-                            <img className='w-10 h-10' src="/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/Skills/node.svg" alt="" /><img className='w-10 h-10' src="/Skills/javascript.svg" alt="" /><img className='w-10 h-10' src="/Skills/gsap.svg" alt="" />
+                            <img className='w-10 h-10' src="/portfolio/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/node.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/javascript.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/gsap.svg" alt="" />
                         </div>
                     </div>
 
@@ -149,7 +149,7 @@ export default function Projects() {
                         onClick={todesktopClick}
                         className="projects min-h-34 px-10 py-6 border-white/60 border-2 rounded-xl flex flex-col justify-end gap-4"
                         onMouseEnter={() => {
-                            setVideoSrc("/videos/ToDesktop.mp4");
+                            setVideoSrc("/portfolio/videos/ToDesktop.mp4");
                             setShowVideo(true);
                         }}
                         onMouseLeave={() => setShowVideo(false)}>
@@ -163,7 +163,7 @@ export default function Projects() {
                             various screen sizes.
                         </p>
                         <div className="skillset flex gap-4 items-center w-52">
-                            <img className='w-10 h-10' src="/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/Skills/javascript.svg" alt="" />
+                            <img className='w-10 h-10' src="/portfolio/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/javascript.svg" alt="" />
                         </div>
                     </div>
                     {/* Portfolio*/}
@@ -171,7 +171,7 @@ export default function Projects() {
                         onClick={portfolioClick}
                         className="projects min-h-34 px-10 py-6 border-white/60 border-2 rounded-xl flex flex-col justify-end gap-4 mb-30"
                         onMouseEnter={() => {
-                            setVideoSrc("/videos/portfolio.mp4");
+                            setVideoSrc("/portfolio/videos/portfolio.mp4");
                             setShowVideo(true);
                         }}
                         onMouseLeave={() => setShowVideo(false)}>
@@ -182,8 +182,8 @@ export default function Projects() {
 
                         </p>
                         <div className="skillset flex gap-4 items-center w-52">
-                            <img className='w-10 h-10' src="/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/Skills/javascript.svg" alt="" /> <img className='w-10 h-10' src="/Skills/gsap.svg" alt="" />
-                            <img className="w-10 " src="/framer-motion.svg" alt="" /> <img className="w-10" src="/Skills/email-js.svg" alt="" />
+                            <img className='w-10 h-10' src="/portfolio/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/portfolio/Skills/javascript.svg" alt="" /> <img className='w-10 h-10' src="/portfolio/Skills/gsap.svg" alt="" />
+                            <img className="w-10 " src="/portfolio/framer-motion.svg" alt="" /> <img className="w-10" src="/portfolio/Skills/email-js.svg" alt="" />
                         </div>
                     </div>
                 </div>
