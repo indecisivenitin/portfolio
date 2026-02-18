@@ -9,16 +9,19 @@ export default function Projects() {
     const containerRef = useRef(null);
 
 
-    const sundownClick=()=>{
+    const sundownClick = () => {
         window.open("https://indecisivenitin.github.io/Web-project-/", "_blank")
     }
-    const ochiClick=()=>{
+    const ochiClick = () => {
         window.open("https://indecisivenitin.github.io/OCHI.DESIGN/", "_blank")
     }
-    const todesktopClick=()=>{
+    const chatifyClick = () => {
+        window.open("https://chat-app-v2-olive.vercel.app")
+    }
+    const todesktopClick = () => {
         window.open("https://indecisivenitin.github.io/TailwindCSS-webpage/", "_blank")
     }
-    const portfolioClick=()=>{
+    const portfolioClick = () => {
         window.open("https://github.com/", "_blank")
     }
 
@@ -30,17 +33,17 @@ export default function Projects() {
     }, []);
 
     useEffect(() => {
-      gsap.to(".clickme",{
-        y:10,
-        opacity:0.2,
-        delay:0.1,
-        duration:1,
-        yoyo:true,
-        ease: "power1.inOut",
-        repeat:-1
-      })
+        gsap.to(".clickme", {
+            y: 10,
+            opacity: 0.2,
+            delay: 0.1,
+            duration: 1,
+            yoyo: true,
+            ease: "power1.inOut",
+            repeat: -1
+        })
     }, [])
-    
+
 
     const handleMouseMove = (e) => {
         if (!videoRef.current || !containerRef.current) return;
@@ -95,8 +98,32 @@ export default function Projects() {
                         </div>
                     )}
 
+
+                    {/* Chatify App */}
+                    <div
+                        onClick={chatifyClick}
+                        className="projects min-h-34 px-10 py-6 border-white/60 border-2 rounded-xl flex flex-col justify-end gap-4"
+                        onMouseEnter={() => {
+                            setVideoSrc("/videos/chatify.mp4");
+                            setShowVideo(true);
+                        }}
+                        onMouseLeave={() => setShowVideo(false)}>
+
+                        <h2 className="name text-2xl text-[#68d0ea]">
+                            Chatify React App: Real-time full-stack chat application built with the MERN stack.
+                        </h2>
+                        <p className="description font-extralight">
+                            Real-time full-stack chat application built with the MERN stack,
+                             featuring JWT authentication, Socket.io messaging, 
+                             and cloud-based image uploads.
+                        </p>
+                        <div className="skillset flex gap-4 items-center w-52">
+                            <img className='w-10 h-10' src="/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/Skills/node.svg" alt="" /><img className='w-10 h-10' src="/Skills/javascript.svg" alt="" /><img src="/Skills/express.svg" alt="" /> <img src="/Skills/mongodb.svg" alt="" />
+                        </div>
+                    </div>
+
                     {/* Sundown Studio */}
-                    <div 
+                    <div
                         onClick={sundownClick}
                         className="projects min-h-34 px-10 py-6 border-white/60 border-2 rounded-xl flex flex-col justify-end gap-4"
                         onMouseEnter={() => {
@@ -188,7 +215,7 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
-        
+
         </>
     );
 }
