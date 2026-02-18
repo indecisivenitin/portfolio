@@ -161,19 +161,19 @@ const About = () => {
                     <div className='flex mt-10 w-[40%] justify-around items-center '>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
                             <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/flask.svg" alt="" />
-                            <p className=' text-black transition-colors group-hover:text-white '>Node</p>
+                            <p className=' text-black transition-colors group-hover:text-white '>Flask</p>
                         </div>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
-                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/python.svg" alt="" />
-                            <p className=' text-black transition-colors group-hover:text-white '>Express</p>
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/pyhton.svg" alt="" />
+                            <p className=' text-black transition-colors group-hover:text-white '>Python</p>
                         </div>
                         <div className=' group w-[80x] h-[88px] rounded-2xl flex flex-col items-center'>
                             <img className='group object-cover object-center w-[80px] h-[88px]' src="/Skills/docker.svg" alt="" />
-                            <p className=' text-black transition-colors group-hover:text-white ml-8'>GSAP</p>
+                            <p className=' text-black transition-colors group-hover:text-white ml-8'>Docker</p>
                         </div>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
                             <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/git.svg" alt="" />
-                            <p className=' text-black transition-colors group-hover:text-white '>Figma</p>
+                            <p className=' text-black transition-colors group-hover:text-white '>Git</p>
                         </div>
                     </div>
                 </div>
