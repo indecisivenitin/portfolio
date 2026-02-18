@@ -72,7 +72,7 @@ const About = () => {
             <div className='flex justify-around items-center'>
                 <div className="left w-[40%]">
                     <div className="image w-80 overflow-hidden h-auto rounded-2xl border-[#27dfb3] border-[2px] mb-8 hover:border-[4px]">
-                        <img className="w-full h-full object-cover object-center" src="/photohd.jpeg" alt="" />
+                        <img className="w-full h-full object-cover object-center" src="/profile.jpg" alt="" />
                     </div>
 
                     <div className="group  social-links flex justify-around items-center w-52 bg-gray-900 rounded-2xl ml-14 hover:scale-40 transition duration-50 backdrop-blur-md border-[#27dfb3] border-[1px] px-2 py-2">
@@ -90,8 +90,7 @@ const About = () => {
 
                 <div className="right -ml-60 w-[50%] flex flex-col gap-10 mb-26">
                     <h1 className='font-neueMachinia text-5xl text-[#27dfb3]'>About Me</h1>
-                    <h2 className='text-2xl'>Hey, I’m Nitin  — a frontend developer passionate about turning ideas into interactive web experiences. Over the past 6+ months, I’ve dedicated myself to learning by building real projects through Frontend Mentor, where I’ve solved challenges and sharpened my problem-solving mindset.</h2>
-
+                    <h2 className='text-2xl'>Hey, I’m Nitin — a frontend developer passionate about turning ideas into interactive web experiences. Over the past 6+ months, I’ve dedicated myself to learning by building real projects through Frontend Mentor, where I’ve solved challenges and sharpened my problem-solving mindset. I’m proficient in the MERN stack, with hands-on experience in Flask and Python-based projects, and I’m currently diving into Docker to enhance my deployment skills. </h2>
                     <h2 className='text-2xl'>With 3+ completed projects, I focus on writing clean code, creating responsive layouts, and bringing designs to life. My next step is to keep pushing my limits, take on bigger projects, and grow into a well-rounded developer.</h2>
                 </div>
             </div>
@@ -154,6 +153,26 @@ const About = () => {
                         </div>
                         <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
                             <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/figma.svg" alt="" />
+                            <p className=' text-black transition-colors group-hover:text-white '>Figma</p>
+                        </div>
+                    </div>
+                </div>
+                 <div className='w-full flex  justify-center skills-3'>
+                    <div className='flex mt-10 w-[40%] justify-around items-center '>
+                        <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/flask.svg" alt="" />
+                            <p className=' text-black transition-colors group-hover:text-white '>Node</p>
+                        </div>
+                        <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/python.svg" alt="" />
+                            <p className=' text-black transition-colors group-hover:text-white '>Express</p>
+                        </div>
+                        <div className=' group w-[80x] h-[88px] rounded-2xl flex flex-col items-center'>
+                            <img className='group object-cover object-center w-[80px] h-[88px]' src="/Skills/docker.svg" alt="" />
+                            <p className=' text-black transition-colors group-hover:text-white ml-8'>GSAP</p>
+                        </div>
+                        <div className=' group w-[80x] h-[80px] rounded-2xl flex flex-col items-center'>
+                            <img className='group object-cover object-center w-[80px] h-[80px]' src="/Skills/git.svg" alt="" />
                             <p className=' text-black transition-colors group-hover:text-white '>Figma</p>
                         </div>
                     </div>

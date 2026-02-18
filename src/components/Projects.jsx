@@ -16,13 +16,16 @@ export default function Projects() {
         window.open("https://indecisivenitin.github.io/OCHI.DESIGN/", "_blank")
     }
     const chatifyClick = () => {
-        window.open("https://chat-app-v2-olive.vercel.app")
+        window.open("https://chat-app-v2-olive.vercel.app", "_blank")
     }
     const todesktopClick = () => {
         window.open("https://indecisivenitin.github.io/TailwindCSS-webpage/", "_blank")
     }
     const portfolioClick = () => {
         window.open("https://github.com/", "_blank")
+    }
+    const soilClick = () => {
+        window.open("https://soil-fertility-predictor-ml-v3.onrender.com/", "_blank")
     }
 
     useEffect(() => {
@@ -72,7 +75,8 @@ export default function Projects() {
             <div id="Projects" className="w-full min-h-screen bg-black text-white -mt-40 relative">
                 <span className="text-4xl text-[#27dfb3] font-helveticaDisplay ml-10">
                     Projects I've Built
-                    <h3 className="clickme mt-4 ml-9 text-xl font-neueMachinia text-gray-300">"Click on the Projects to visit live website."</h3>
+                    <h3 className="clickme mt-4 ml-9 text-xl font-neueMachinia text-gray-300">"Click on the Projects to visit live website.
+                        videos might take few seconds to load!"</h3>
                 </span>
 
                 {/* Project container */}
@@ -114,11 +118,11 @@ export default function Projects() {
                         </h2>
                         <p className="description font-extralight">
                             Real-time full-stack chat application built with the MERN stack,
-                             featuring JWT authentication, Socket.io messaging, 
-                             and cloud-based image uploads.
+                            featuring JWT authentication, Socket.io messaging,
+                            and cloud-based image uploads.
                         </p>
                         <div className="skillset flex gap-4 items-center w-52">
-                            <img className='w-10 h-10' src="/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/Skills/node.svg" alt="" /><img className='w-10 h-10' src="/Skills/javascript.svg" alt="" /><img src="/Skills/express.svg" alt="" /> <img src="/Skills/mongodb.svg" alt="" />
+                            <img className='w-10 h-10' src="/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/Skills/node.svg" alt="" /><img className='w-10 h-10' src="/Skills/javascript.svg" alt="" /><img className='w-10 h-10'  src="/Skills/express.svg" alt="" /> <img className='w-10 h-10'  src="/Skills/mongodb.svg" alt="" />
                         </div>
                     </div>
 
@@ -143,6 +147,30 @@ export default function Projects() {
                         </p>
                         <div className="skillset flex gap-4 items-center w-52">
                             <img className='w-10 h-10' src="/Skills/react.svg" alt="" /><img className='w-10 h-10' src="/Skills/tailwind.svg" alt="" /><img className='w-10 h-10' src="/Skills/node.svg" alt="" /><img className='w-10 h-10' src="/Skills/javascript.svg" alt="" /><img className='w-10 h-10' src="/Skills/gsap.svg" alt="" />
+                        </div>
+                    </div>
+
+                    {/* soil fertility */}
+                    <div
+                        onClick={soilClick}
+                        className="projects min-h-34 px-10 py-6 border-white/60 border-2 rounded-xl flex flex-col justify-end gap-4"
+                        onMouseEnter={() => {
+                            setVideoSrc("/videos/soil.mp4");
+                            setShowVideo(true);
+                        }}
+                        onMouseLeave={() => setShowVideo(false)}>
+
+                        <h2 className="name text-2xl text-[#085720]">
+                            Soil Fertility Predictor : ML-powered web app that instantly predicts soil fertility (0–100%) from 14 parameters and gives smart fertilizer recommendations.
+                        </h2>
+                        <p className="description font-extralight">
+                            ML-powered web app that instantly predicts soil fertility (0–100%) from 14 parameters and gives smart fertilizer recommendations.
+                            Beautiful UI • Live gauge • PDF report • Test cases included.
+                            Built with Flask + Python, deployed on Render.
+                            Open-source & ready to use! 
+                        </p>
+                        <div className="skillset flex gap-4 items-center w-52">
+                            <img className='w-10 h-10' src="/Skills/flask.svg" alt="" /><img className='w-10 h-10' src="/Skills/ai.svg" alt="" /><img className='w-10 h-10' src="/Skills/node.svg" alt="" /><img className='w-10 h-10' src="/Skills/javascript.svg" alt="" />
                         </div>
                     </div>
 
