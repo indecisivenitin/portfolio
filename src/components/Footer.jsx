@@ -3,7 +3,7 @@ import { SiFrontendmentor } from "react-icons/si";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-black text-gray-300 py-12 px-8 border-[1px]  border-white/70 rounded-2xl">
+    <footer className="w-full mt-4 bg-black text-gray-300 py-12 px-8 border-[1px]  border-white/70 rounded-2xl">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
         
 

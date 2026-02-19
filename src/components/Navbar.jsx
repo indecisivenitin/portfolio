@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import gsap from "gsap"
 import { motion, AnimatePresence } from 'framer-motion'
-import { FiX } from "react-icons/fi";
+import { FiX, FiMenu } from "react-icons/fi";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 
 const Navbar = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
   useEffect(() => {
     gsap.to(".projects",
       {
@@ -55,13 +57,27 @@ const Navbar = () => {
   const openContactForm = () => setContactFormOpen(true)
   const closeContactForm = () => setContactFormOpen(false)
 
+  const closeMobileMenu = () => setMobileMenuOpen(false)
+
   return (
     <motion.div>
-      <nav className='bg-transparent flex justify-between items-center px-16  text-[#E5E5E5] mt-10'>
-        <div className="logo text-3xl font-helveticaDisplay">
-          <span className='flex text-[#27dfb3] gap-1 font-helveticaDisplay items-center'><img className='w-10 h-10' src="/logo.svg" alt="" />Nitin</span>
+      <nav className='bg-transparent flex justify-between items-center px-4 sm:px-8 md:px-16 text-[#E5E5E5] mt-6 md:mt-10'>
+        <div className="logo text-2xl md:text-3xl font-helveticaDisplay">
+          <span className='flex text-[#27dfb3] gap-1 font-helveticaDisplay items-center'><img className='w-8 md:w-10 h-8 md:h-10' src="/logo.svg" alt="logo" />Nitin</span>
         </div>
-        <div className="links flex justify-between font-neueMachinia gap-10 text-lg items-center">
+
+        <button
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          className="md:hidden text-[#E5E5E5] z-50"
+        >
+          {mobileMenuOpen ? (
+            <FiX size={24} />
+          ) : (
+            <FiMenu size={24} />
+          )}
+        </button>
+
+        <div className="hidden md:flex links justify-between font-neueMachinia gap-10 text-lg items-center">
           <h2 className='hover:font-bold hover:text-xl hover:text-amber-200'><a href="#">Home</a></h2>
           <h2 className='hover:font-bold hover:text-xl hover:text-amber-200'><a href="#About">About</a></h2>
           <h2 className='hover:font-bold hover:text-xl hover:text-amber-200'><a href="#Skills">Skills</a></h2>
@@ -69,6 +85,24 @@ const Navbar = () => {
           <button onClick={openContactForm} className='bg-[#27dfb3] px-2 py-2 rounded-md cursor-pointer hover:bg-[#27dfc1] hover:font-bold hover:scale-105 text-black'>Hire Me</button>
         </div>
       </nav>
+
+      <AnimatePresence>
+        {mobileMenuOpen && (
+          <motion.div
+            initial={{ opacity: 0, x: -300 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: -300 }}
+            transition={{ duration: 0.3 }}
+            className="fixed top-0 left-0 w-full h-screen bg-black/95 backdrop-blur-md z-40 md:hidden flex flex-col pt-20 pl-6 gap-8 font-neueMachinia text-lg text-[#E5E5E5]"
+          >
+            <h2><a href="#" onClick={closeMobileMenu} className='hover:text-amber-200'>Home</a></h2>
+            <h2><a href="#About" onClick={closeMobileMenu} className='hover:text-amber-200'>About</a></h2>
+            <h2><a href="#Skills" onClick={closeMobileMenu} className='hover:text-amber-200'>Skills</a></h2>
+            <h2 className='text-orange-700 projects font-bold text-2xl'><a href="#Projects" onClick={closeMobileMenu}>Projects</a></h2>
+            <button onClick={() => { openContactForm(); closeMobileMenu(); }} className='bg-[#27dfb3] px-2 py-2 rounded-md cursor-pointer hover:bg-[#27dfc1] hover:font-bold hover:scale-105 text-black w-fit'>Hire Me</button>
+          </motion.div>
+        )}
+      </AnimatePresence>
       <ToastContainer
         position="bottom-right"
         autoClose={3000}
