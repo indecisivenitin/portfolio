@@ -19,6 +19,17 @@ export default function Projects() {
       link: "https://chat-app-v2-olive.vercel.app",
       skills: ["react", "tailwind", "node", "javascript", "express", "mongodb"]
     },
+
+        {
+      id: "devflow",
+      title: "DevFlow AI : A full-stack AI-powered chat application",
+      description: "DevFlow AI is a full-stack AI-powered chat application featuring secure authentication, multi-session chat management, and real-time streaming AI responses. The vision behind DevFlow is simple: reduce friction, eliminate repetitive debugging cycles, and empower developers to think clearly and ship faster.",
+      color: "#51137F",
+      videoSrc: "/videos/DevFlow AI.mp4",
+      link: "https://github.com/indecisivenitin/DevFlow-AI",
+      skills: ["react", "tailwind", "node", "javascript", "mongodb","express","framer-motion"]
+    },
+
     {
       id: "sundown",
       title: "Sundown Studio : A Design Agency Landing Page",
