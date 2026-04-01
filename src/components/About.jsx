@@ -42,7 +42,7 @@ const About = () => {
             <div className='flex flex-col md:flex-row justify-around items-center gap-8 md:gap-0'>
                 <div className="left w-full md:w-[40%]">
                     <div className="image w-full max-w-80 mx-auto md:mx-0 overflow-hidden h-auto rounded-2xl border-[#27dfb3] border-[2px] mb-8 hover:border-[4px]">
-                        <img className="w-full h-full object-cover object-center" src="https://drive.google.com/uc?id=1F9eBKwuj1d1bNPisJinvhggQPAxQMWvH&export=download" alt="profile" />
+                        <img className="w-full h-full object-cover object-center" src="/profile.jpg" alt="profile" />
                     </div>
 
                     <div className="group social-links flex justify-around items-center w-full max-w-52 mx-auto md:mx-0 md:ml-14 bg-gray-900 rounded-2xl transition duration-50 backdrop-blur-md border-[#27dfb3] border-[1px] px-2 py-2">
